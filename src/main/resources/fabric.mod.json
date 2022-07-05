@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "honeywine",
+  "version": "${version}",
+
+  "name": "Honey Wine",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "killallhamsters"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "Copyleft",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.killallhamsters.newmod.HoneyWine"
+    ],
+    "client": [
+      "net.killallhamsters.newmod.HoneyWineClient"
+    ]
+  },
+  "mixins": [
+    "newmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
