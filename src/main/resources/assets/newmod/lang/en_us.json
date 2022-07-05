@@ -1,4 +1,11 @@
 {
   "item.newmod.raw_tin": "Raw Tin",
-  "item.newmod.tin": "Tin"
+  "item.newmod.tin": "Tin",
+
+  "block.newmod.tin_block": "Block of Tin",
+  "block.newmod.tin_ore": "Tin Ore",
+  "block.newmod.deepslate_tin_ore": "Deepslate Tin Ore",
+
+
+  "itemGroup.newmod.tin" : "Tin Tab"
 }
